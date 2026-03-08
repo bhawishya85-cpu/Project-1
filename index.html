@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Twilight Gallery</title>
+</head>
+<body>
+    <main>
+
+        <header>
+            <p id="nav-heading">Twilight Gallery</p>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href=".news-section">News</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero-section">
+            <div id="hero-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="https://res.cloudinary.com/dovhqnsc0/video/upload/v1772977077/hero-bg_x7mtus.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+                <div id="cta-button">
+                    <button class="cta-button" onclick="window.location.href='#features'">Enter the Hall</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+           <h1 id="feature-h1">Step into the twilight of imagination</h1>
+                <p id="feature-h1-p">Where every canvas whispers secrets untold</p>
+            <div class="feature-cards">
+                <img src="imgs\marketplace of shadows.png" alt="Marketplace of Shadows" class="feature-img">
+                <h3>The Marketplace of Shadows</h3>
+                <p>Browse paintings available for direct purchase. Each piece is a fragment of an artist’s soul, waiting for a new home.</p>
+                <div class="feature-btns">
+                <button class="learn-more" onclick="window.location.href='marketplace.html'">Learn More</button>
+               </div>
+            </div>
+            <div class="feature-cards">
+                <img src="imgs\auction chamber.png" alt="Auction Chamber" class="feature-img">
+               <h3>The Auction Chamber</h3>
+               <p>Rare and exquisite works are unveiled under candlelight. Bidding wars echo like whispers in the dark.
+               </p>
+               <div class="feature-btns">
+                <button class="learn-more" onclick="window.location.href=''">Learn More</button>
+               </div>                           
+            </div>
+            <div class="feature-cards">
+                <img src="imgs\forbidden room.png" alt="Forbidden Lore" class="feature-img">
+                <h3>The Forbidden Lore</h3>
+                <p>Paintings that are not for sale. Each carries a legend, a curse, or a tale that binds it to the gallery forever. Visitors may gaze, but never possess.</p>
+                <div class="feature-btns">
+                    <button class="learn-more" onclick="window.location.href=''">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Auctions & Events</h2>
+            <div class="event-container">
+                <div class="event-text">
+                    <p>Step into the Auction Chamber, where rare and exquisite works are unveiled under candlelight.</p>
+                    <ul>
+                        <li><strong>Dates & Times:</strong> Each auction night begins at twilight, when shadows grow long.</li>
+                        <li><strong>Featured Works:</strong> Only the most coveted paintings are chosen—pieces whispered about in hushed tones, rumored to carry secrets within their brushstrokes.</li>
+                        <li><strong>Registration:</strong> Guests must register in advance. Only those who hold a numbered token may enter the bidding circle.</li>
+                    </ul>
+                </div>
+                <div id="auction-img">
+                    <img src="imgs\auction1.png" alt="auction">
+                </div>
+            </div>
+            <div class="event-container">
+                <div class="event-text">
+                    <p>Beyond auctions, Twilight Gallery hosts evenings that blur the line between art and ritual.</p>
+                    <ul>
+                        <li><strong>Candlelit Tours:</strong> Visitors wander through the gallery guided only by flickering candles, discovering works that seem to shift in the shadows.</li>
+                        <li><strong>Storytelling Evenings:</strong> Curators and guest narrators recount the lore behind forbidden paintings—ghost stories, myths, and tales of obsession.</li>
+                        <li><strong>The Midnight Gathering:</strong> A once-a-year event where collectors, artists, and seekers of the strange convene to share their own haunted creations.</li>
+                    </ul>
+                </div>
+                <div id="event-img">
+                    <img src="imgs\storytelling 2.png" alt="Storytelling Event">
+                </div>
+            </div>
+        </section>
+
+        <section id="membership">
+            <h2>Twilight Gallery Membership</h2>
+            <p>Choose your path into the shadows. Only the Gold Membership is available for purchase. Premium Membership is by invitation only.</p>
+
+            <div class="membership-card gold">
+                <h3> Gold Membership</h3>
+                <ul>
+                <li> Exclusive previews of upcoming collections</li>
+                <li> Special Golden Ticket in auctions</li>
+                <li> Invitations to gothic-themed events</li>
+                <li> Access to members-only newsletters</li>
+                <li> Priority seating during storytelling nights</li>
+                </ul>
+                <button class="join-button">Join Gold Membership</button>
+            </div>
+
+            <div class="membership-card premium">
+                <h3> Premium Membership (Invitation Only)</h3>
+                <ul>
+                <li> Special leverage in auctions</li>
+                <li> High involvement with the Curators</li>
+                <li> Reserved seats in the Auction Chamber</li>
+                <li> Pre-auction private previews</li>
+                <li> Chance to become part of Twilight Gallery staff</li>
+                </ul>
+                <button class="invite-button" disabled>Invitation Required</button>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>History of Twilight Gallery</h2>
+            <p>"There are places where art is displayed. And then there are places where art is kept… because it cannot be allowed to leave." <br>
+            Twilight Gallery’s origins are shrouded in rumor, but fragments of its story have survived in journals, letters, and whispered recollections. From its earliest candlelit exhibitions, the gallery became a sanctuary for the extraordinary—paintings that stirred unease, whispered secrets, and seemed alive in their frames.</p>
+            <p>Over time, it grew into a place of mystery and reverence:</p>
+            <ul>
+                <li><strong>The Marketplace of Shadows</strong> for works that could be owned.</li>
+                <li><strong>The Auction Chamber</strong> for rare pieces unveiled under velvet drapes.</li>
+                <li><strong>The Lore Room,</strong> reserved for paintings bound by legend, never to leave the gallery’s walls.</li>
+            </ul>
+            <p>Today, Twilight Gallery endures as both marketplace and myth. It is not merely a place to view art, but to experience it—where every canvas is a story, and every story lingers long after you depart.</p>
+            <p>"Step inside, and remember: some paintings are meant to be owned… and some are meant to own you."</p>
+
+            <div id="history-imgs">
+                <img src="imgs\history1.png" alt="History Image 1">
+                <img src="imgs\history2.png" alt="History Image 2">
+                <img src="imgs\history3.png" alt="History Image 3">
+                <img src="imgs\history4.png" alt="History Image 4">
+                
+            </div>
+            <div id="history-cta">
+                <button class="history-cta-button" onclick="window.location.href=''">Read Full Chronicle</button>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="news-container">
+                <div class="news-content" style="grid-area: box1;">
+                <img src="imgs\marketplace-sc.PNG" alt="Marketplace Page" class="news-image">
+                <h2>Marketplace Is Live Now!</h2>
+                <p>The Twilight Gallery’s Marketplace of Shadows has officially opened its gates. Explore a curated collection of mysterious, handcrafted paintings — each steeped in legend, lore, and atmosphere. From blindfolded prayers to sealed entities, every piece is a portal into the unknown.</p>
+                <a href="marketplace.html" class="news-button">Enter the Marketplace</a>
+                </div>
+                <div class="news-content" style="grid-area: box2;">
+                <h2>comming soon</h2>  
+                </div>
+                <div class="news-content" style="grid-area: box3;">
+                <h2>comming soon</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                <h3>Twilight Gallery</h3>
+                <p>Where legends linger and shadows speak.</p>
+                </div>
+                <div class="footer-links">
+                <ul>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li><a href="/lore">Lore Archive</a></li>
+                    <li><a href="/artists">Artists</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                </div>
+                <div class="footer-social">
+                <p>Follow the whispers:</p>
+                <a href="#">Instagram</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">Threads</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Twilight Gallery. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
