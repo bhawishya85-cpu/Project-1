@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Marketplace Registration</title>
+</head>
+<body>
+<main>
+ <nav class="navbar">
+    <h1 class="navbar-title">Marketplace Registration</h1>
+    <ul class="navbar-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="marketplace.html">Marketplace</a></li>
+    </ul>
+</nav>
+    <div class="container">
+        <div class="left-side">
+        <video autoplay muted loop>
+            <source src="https://res.cloudinary.com/dovhqnsc0/video/upload/v1772977096/bg-video-2_yiaxri.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+
+        
+        <div class="right-side">
+        <h1>Marketplace Registration</h1>
+        <p>Welcome to the Twilight Gallery’s Marketplace of Shadows. To place an order, please register below. This ensures authenticity, security, and adherence to our rules.</p>
+
+        <div class="rules">
+            <h2>Important Rules & Guidelines</h2>
+            <ul>
+            <li>All purchases are final — no returns or refunds.</li>
+            <li>Each item is unique and handcrafted; availability is limited.</li>
+            <li>Orders require accurate personal details for verification.</li>
+            <li>Respect the lore — items are symbolic and atmospheric.</li>
+            <li>Delivery timelines may vary depending on region.</li>
+            </ul>
+        </div>
+
+            <form action="/submit-registration" method="post">
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" required minlength="3">
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="10-digit number">
+
+                <label for="address">Shipping Address *</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="country">Country *</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="password">Create Password *</label>
+                <input type="password" id="password" name="password" required minlength="6">
+
+                <label for="confirm-password">Confirm Password *</label>
+                <input type="password" id="confirm-password" name="confirm-password" required minlength="6">
+
+                <input type="submit" value="Register & Proceed to Marketplace">
+        </form>
+        </div>
+    </div>
+    <footer class="marketplace-footer">
+    <p>&copy; 2026 Twilight Gallery — Marketplace of Shadows</p>
+    <div class="footer-nav">
+      <a href="">Terms</a> |
+      <a href="">Privacy</a> |
+      <a href="">Support</a>
+    </div>
+  </footer>
+
+</main>
+
+</body>
+</html>
